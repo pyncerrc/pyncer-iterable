@@ -1,0 +1,21 @@
+{
+    "name": "pyncer/iterable",
+    "type": "library",
+    "description": "Pyncer library for handling iteration.",
+    "homepage": "https://pyncer.com/iterable",
+    "license": "Unlicense",
+    "require": {
+        "php": ">=8.1",
+        "pyncer/utility": "*",
+        "pyncer/exception": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyncer\\Iterable\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/pyncerrc/pyncer-iterable/issues",
+        "source": "https://github.com/pyncerrc/pyncer-iterable"
+    }
+}
