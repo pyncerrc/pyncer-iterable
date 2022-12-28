@@ -106,24 +106,6 @@ class Set implements SetInterface
         return implode($glue, $this->values);
     }
 
-    /*public function reduce(callable $reduce)
-    {
-
-    }
-    public function map(callable $map)
-    {
-
-    }
-    public function filter(callable $filter): pa\iterable\SetInterface
-    {
-
-    }
-    public function sort(callable $compare = null): pa\iterable\SetInterface
-    {
-
-        return $this;
-    }*/
-
     public function compare(mixed $with): int
     {
         if (!$with instanceof SetInterface) {
