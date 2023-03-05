@@ -16,4 +16,7 @@ interface SetInterface extends
 
     public function getValues(): array;
     public function clear(): static;
+
+    public function __serialize(): array;
+    public function __unserialize(array $data): void;
 }

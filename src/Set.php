@@ -28,6 +28,7 @@ class Set implements SetInterface
 
         return $this;
     }
+
     public function delete(mixed ...$values): static
     {
         foreach ($values as $value1) {
@@ -51,6 +52,7 @@ class Set implements SetInterface
 
         return $this;
     }
+
     public function has(mixed ...$values): bool
     {
         $result = true;
@@ -87,6 +89,7 @@ class Set implements SetInterface
     {
         return $this->values;
     }
+
     public function clear(): static
     {
         $this->values = [];

@@ -1,6 +1,8 @@
 <?php
 namespace Pyncer\Iterable;
 
+use ReturnTypeWillChange;
+
 trait IteratorTrait
 {
     protected int $position = 0;
@@ -13,13 +15,13 @@ trait IteratorTrait
         $this->position = 0;
     }
 
-    #[\ReturnTypeWillChange]
+    #[ReturnTypeWillChange]
     public function current()
     {
         return $this->values[$this->keys[$this->position]];
     }
 
-    #[\ReturnTypeWillChange]
+    #[ReturnTypeWillChange]
     public function key()
     {
         return $this->keys[$this->position];

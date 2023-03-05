@@ -14,12 +14,12 @@ class ArrayMap extends Map
             $this->values[$key] = [];
         }
 
-        // TODO: Suxp comparator interface
-        // Not sure what suxp was supposed to be
+        // TODO: Support comparator interface
         $this->values[$key] = array_merge($this->values[$key], $values);
 
         return $this;
     }
+
     public function set(string $key, mixed $value): static
     {
         $this->values[$key] = [];

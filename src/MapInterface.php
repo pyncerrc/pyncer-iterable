@@ -5,7 +5,6 @@ use ArrayAccess;
 use Countable;
 use Iterator;
 use Pyncer\Utility\CompareInterface;
-use Serializable;
 
 interface MapInterface extends
     ArrayAccess,
@@ -27,4 +26,6 @@ interface MapInterface extends
     public function clear(): static;
 
     public function __invoke(string $key): mixed;
+    public function __serialize(): array;
+    public function __unserialize(array $data): void;
 }

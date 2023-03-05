@@ -17,5 +17,10 @@
     "support": {
         "issues": "https://github.com/pyncerrc/pyncer-iterable/issues",
         "source": "https://github.com/pyncerrc/pyncer-iterable"
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-main" : "1.1-dev"
+        }
     }
 }
