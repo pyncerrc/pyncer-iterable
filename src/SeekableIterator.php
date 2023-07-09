@@ -2,10 +2,10 @@
 namespace Pyncer\Iterable;
 
 use Countable;
-use SeekableIterator;
-use Pyncer\Iterable\AccessIteratorTrait;
+use SeekableIterator as PhpSeekableIterator;
+use Pyncer\Iterable\SeekableIteratorTrait;
 
-class SeekableIterator implements Countable, SeekableIterator
+class SeekableIterator implements Countable, PhpSeekableIterator
 {
     use SeekableIteratorTrait;
 }
