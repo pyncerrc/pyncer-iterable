@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.1 - 2023-07-09
+
+### Fixed
+
+- Fixed bug with SeekableIterator class.
+
 ## 1.1.0 - 2023-03-05
 
 ### Added
@@ -8,12 +14,12 @@
 - Added AccessIterator class.
 - Added AccessIteratorTrait trait.
 - Added SeekableIterator class.
-- Added StaticIteratorTrait trait.
 - Added StaticIterator class.
-- Added StaticAccessIteratorTrait trait.
+- Added StaticIteratorTrait trait.
 - Added StaticAccessIterator class.
-- Added StaticSeekableIteratorTrait trait.
+- Added StaticAccessIteratorTrait trait.
 - Added StaticSeekableIterator class.
+- Added StaticSeekableIteratorTrait trait.
 
 ### Fixed
 
