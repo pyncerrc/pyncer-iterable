@@ -1,7 +1,6 @@
 <?php
 namespace Pyncer\Iterable;
 
-use Pyncer as p;
 use Pyncer\Iterable\Map;
 use Pyncer\Iterable\MapInterface;
 use Pyncer\Iterable\Set;
