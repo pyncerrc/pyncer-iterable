@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.2 - 2024-02-25
+
+### Fixed
+
+- Fixed bass class name in StaticIterator class.
+
 ## 1.1.1 - 2023-07-09
 
 ### Fixed
