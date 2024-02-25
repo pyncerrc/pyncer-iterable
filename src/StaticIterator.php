@@ -5,7 +5,7 @@ use Countable;
 use Iterator;
 use Pyncer\Iterable\StaticIteratorTrait;
 
-class StaticAccessIterator implements Countable, Iterator
+class StaticIterator implements Countable, Iterator
 {
     use StaticIteratorTrait;
 }
